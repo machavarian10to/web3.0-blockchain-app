@@ -1,8 +1,11 @@
 {
+  "homepage": "http://machavarian10to.github.io/web3.0-blockchain-app",
   "name": "crypt",
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
